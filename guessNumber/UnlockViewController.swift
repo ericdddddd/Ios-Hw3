@@ -113,7 +113,6 @@ class UnlockViewController: UIViewController {
         rangeLabel.text = rangeHint()
         remainingNumber = 40
         remainingLabel.text = "\(remainingNumber)"
-        viewDidLoad()
         count = 0
         side = 0
     }
